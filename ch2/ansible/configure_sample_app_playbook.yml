@@ -1,0 +1,8 @@
+- name: Configure the Ec2 instance to run a sample app
+  hosts: sample_app_ansible
+  gather_facts: true
+  become: true
+  roles:
+    - sample-app
+
+    
