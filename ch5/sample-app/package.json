@@ -1,0 +1,12 @@
+{
+  "name": "sample-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js"
+    "dockerize": "./build-docker-image.sh"
+  },
+  "author": "",
+  "license": "ISC"
+}
