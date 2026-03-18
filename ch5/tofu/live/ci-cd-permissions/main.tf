@@ -19,7 +19,6 @@ module "iam_roles" {
 
   enable_iam_role_for_testing = true                            
 
-  # TODO: fill in your own repo name here!
-  github_repo      = "brikis98/fundamentals-of-devops-examples" 
+  github_repo      = "RuariW12/fundamentals-of-devops-v1" 
   lambda_base_name = "lambda-sample"                            
 }
