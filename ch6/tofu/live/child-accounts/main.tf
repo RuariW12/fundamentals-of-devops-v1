@@ -8,9 +8,8 @@ module "child_accounts" {
 
   create_organization = true                 
 
-  # TODO: fill in your own account emails!
   accounts = {                               
-    development = "username+dev@email.com"
+    development = "ruariw16@gmail.com"
     staging     = "username+stage@email.com"
     production  = "username+prod@email.com"
   }
